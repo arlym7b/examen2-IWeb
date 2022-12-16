@@ -1,4 +1,8 @@
+import React, { useState }  from 'react';
+import MainAppBar from './components/MainAppBar/MainAppBar';
+import Pie from './components/common/Pie/Pie';
 import Main from "./pages/Main/Main";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { GoogleOAuthProvider } from '@react-oauth/google';
 import './App.css';
 

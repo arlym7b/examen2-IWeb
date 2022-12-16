@@ -1,6 +1,4 @@
 import React from 'react';
-import ImagenPromocional from '../../components/ImagenPromocial/ImagenPromocional';
-import Valores from '../../components/Valores/Valores';
 
 const Main = () => {
   const [cargando, setCargando] = useState(true);
@@ -29,7 +27,6 @@ const Main = () => {
       <Container maxWidth="xl" sx={{mb: 3}}>
           {/*<BarraFiltros/>*/}
           <Mapa lineas={lin} paradas={par} />
-          <ListaTarjetas locations={viviendas} text="Reservar"/>
           
       </Container>
     )
